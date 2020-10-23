@@ -5,12 +5,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  height: 100vh;
+}
 .navbar {
   top: 0;
   background: #ff416c;
   background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
   color: #fff;
-  height: 10vh;
+  height: 10%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -28,7 +31,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 80%;
   margin: -20px 0 50px;
 }
 h1 {
